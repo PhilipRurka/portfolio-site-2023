@@ -6,12 +6,25 @@ export const EducationStyled = styled.div`
 `;
 
 export const EducationType = styled.h3`
-  font-size: 20px;
+  font-size: 18px;
   color: ${Colors.eucalyptus};
 `;
 
 export const Description = styled.p`
-  margin: 5px 0 30px;
+  margin: 10px 0 5px;
   font-size: 14px;
-  line-height: 1.2em;  
+  line-height: 1.2em;
+`;
+
+export const MeansList = styled.ul`
+  padding-left: 30px;
+`;
+
+export const MeansItem = styled.li`
+  list-style: disc;
+`;
+
+export const Mean = styled.p`
+  font-size: 14px;
+  line-height: 1.2em;
 `;

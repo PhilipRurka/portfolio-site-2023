@@ -33,6 +33,11 @@ const Header: FC<HeaderType> = ({ handlePrint }) => {
             </Email>
           </ContactItem>
           <ContactItem>
+            <LinkedIn href='tel:+1 (438) 4588649'>
+              +1 (438) 458-8649
+            </LinkedIn>
+          </ContactItem>
+          <ContactItem>
             <LinkedIn href='https://www.linkedin.com/in/philiprurka'>
               linkedin.com/in/philiprurka
             </LinkedIn>

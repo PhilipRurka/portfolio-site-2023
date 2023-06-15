@@ -36,7 +36,7 @@ export const ExperienceStyled = styled.div`
 `;
 
 export const JobTitle = styled.h3`
-  font-size: 20px;
+  font-size: 18px;
   color: ${Colors.eucalyptus};
 `;
 

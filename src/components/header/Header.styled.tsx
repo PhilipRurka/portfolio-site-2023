@@ -55,6 +55,10 @@ export const PrintIconWrapper = styled.button`
   width: 40px;
   height: 40px;
 
+  @media (max-width: 600px) {
+    display: none;
+  }
+
   @media print {
     display: none;
   }
@@ -83,8 +87,16 @@ export const ContactList = styled.ul`
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    max-width: 480px;
+    row-gap: 15px;
+  }
+
   @media (max-width: 700px) {
     flex-direction: column;
+    max-width: unset;
+    row-gap: unset;
   }
 
   @media print {

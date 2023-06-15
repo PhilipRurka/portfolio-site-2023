@@ -6,7 +6,7 @@ export const AboutMeStyled = styled.div`
 `;
 
 export const AboutMeHeading = styled.h3`
-  font-size: 20px;
+  font-size: 18px;
   color: ${Colors.eucalyptus};
 `;
 

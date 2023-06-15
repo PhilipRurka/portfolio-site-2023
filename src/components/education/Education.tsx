@@ -2,8 +2,12 @@ import React, { FC } from "react";
 import {
   Description,
   EducationStyled,
-  EducationType
+  EducationType,
+  Mean,
+  MeansItem,
+  MeansList
 } from "./Education.styled";
+import { meansList } from "./Education.container";
 
 type EducationType = {
   
@@ -12,10 +16,17 @@ type EducationType = {
 const Education: FC<EducationType> = () => {
   return (
     <EducationStyled>
-      <EducationType>Self Taught!!</EducationType>
+      <EducationType>Self Taught</EducationType>
       <Description>
-        Although I don't have any academic credential, I can assure you, I can get the job done! My methods of learning are typacilly reading documentation, reverse engeneering, Reading other developers work and most of all, getting my hands dirty in a good old fashion project.
+        I am a self taught developer who mostly learned by:        
       </Description>
+      <MeansList>
+        {meansList.map((item) => (
+          <MeansItem key={`MeansList-${item}`}>
+            <Mean>{ item }</Mean>
+          </MeansItem>
+        ))}
+      </MeansList>
     </EducationStyled>
   )
 }

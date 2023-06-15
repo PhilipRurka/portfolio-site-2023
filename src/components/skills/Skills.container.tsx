@@ -13,7 +13,7 @@ export const skillsData: SkillsData = [{
     'CSS',
     'SCSS',
     'Styled Component',
-    'Vanila Javascript',
+    'Vanilla Javascript',
     'Typescript',
     'React',
     'Next.js',
@@ -37,7 +37,7 @@ export const skillsData: SkillsData = [{
     'Shopify',
     'Email building',
     'Custom Gmail signature',
-    'Formating Print Page',
+    'Formatting Print Page',
     'Populating Google Sheets with data'
   ]
 }, {
@@ -65,9 +65,9 @@ export const skillsData: SkillsData = [{
   skills: [
     'Team Lead',
     'Project Manager',
-    'Consucting efficient meetings',
-    'Consucting product demos',
-    'Writting documentation',
+    'Conducting efficient meetings',
+    'Conducting product demos',
+    'Writing documentation',
     'Design feedback & review',
     'Mentor Junior Developers'
   ]

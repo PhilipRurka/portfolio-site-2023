@@ -5,11 +5,24 @@ export const AnimatedSectionStyled = styled.section`
   margin-top: 40px;
 `;
 
+export const HeadingWrapper = styled.div`
+  position: relative;
+`;
+
 export const SectionTitle = styled.h2`
   font-size: 20px;
   font-weight: 700;
   color: ${Colors.dodger};
   text-transform: uppercase;
-  border-bottom: 3px solid ${Colors.dodger};
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  opacity: 0;
+`;
+
+export const Underline = styled.div`
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: ${Colors.dodger};
 `;

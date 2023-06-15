@@ -1,7 +1,9 @@
-import React, { FC } from "react";
+import React, { forwardRef } from "react";
 import {
   AnimatedSectionStyled,
-  SectionTitle
+  HeadingWrapper,
+  SectionTitle,
+  Underline
 } from "./AnimatedSection.styled";
 
 type AnimatedSectionType = {
@@ -9,14 +11,22 @@ type AnimatedSectionType = {
   children: JSX.Element | JSX.Element[]
 }
 
-const AnimatedSection: FC<AnimatedSectionType> = ({
+const AnimatedSection= forwardRef<any, AnimatedSectionType>(({
   sectionTitle,
   children
-}) => (
+}, {
+  headingRef,
+  underlineRef
+}: any) => (
   <AnimatedSectionStyled>
-    <SectionTitle>{ sectionTitle }</SectionTitle>
+    <HeadingWrapper>
+      <SectionTitle ref={headingRef}>
+        { sectionTitle }
+      </SectionTitle>
+      <Underline ref={underlineRef} />
+    </HeadingWrapper>
     { children }
   </AnimatedSectionStyled>
-)
+))
 
 export default AnimatedSection

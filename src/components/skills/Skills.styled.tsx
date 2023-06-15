@@ -10,12 +10,16 @@ export const SkillsWrapper = styled.div`
   &:last-child ul {
     margin-bottom: 0;
   }
+
+  @media print {
+    break-inside: avoid; 
+  }
 `;
 
 export const SkillType = styled.h3`
   ${Fonts.roboto}
   font-weight: 800;
-  color: ${Colors.eucalyptus}
+  color: ${Colors.eucalyptus};
 `;
 
 export const SkillsList = styled.ul`

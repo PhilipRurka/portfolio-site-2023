@@ -36,7 +36,9 @@ export const skillsData: SkillsData = [{
     'Implementing UI libraries',
     'Shopify',
     'Email building',
-    'Custom Gmail signature'
+    'Custom Gmail signature',
+    'Formating Print Page',
+    'Populating Google Sheets with data'
   ]
 }, {
   skillType: 'Project Management Platforms',

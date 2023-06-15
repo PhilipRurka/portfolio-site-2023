@@ -29,6 +29,10 @@ export const ExperienceStyled = styled.div`
     margin-bottom: unset;
     border-bottom: unset;
   }
+
+  @media print {
+    break-inside: avoid; 
+  }
 `;
 
 export const JobTitle = styled.h3`

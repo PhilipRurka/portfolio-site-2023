@@ -20,4 +20,11 @@ export const GlobalStyle = createGlobalStyle`
   span {
     display: block;
   }
+
+  button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
 `

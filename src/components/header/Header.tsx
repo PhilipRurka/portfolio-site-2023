@@ -8,17 +8,22 @@ import {
   HeaderWrapper,
   LinkedIn,
   Name,
+  PrintIcon,
+  PrintIconWrapper,
   Title
 } from "./Header.styled";
 
 type HeaderType = {
-  
+  handlePrint: () => void 
 }
 
-const Header: FC<HeaderType> = () => {
+const Header: FC<HeaderType> = ({ handlePrint }) => {
   return (
     <HeaderStyled>
       <HeaderWrapper>
+        <PrintIconWrapper onClick={handlePrint}>
+          <PrintIcon color='#fff' />
+        </PrintIconWrapper>
         <Name>Philip Rurka</Name>
         <Title>Frontend Developer</Title>
         <ContactList>

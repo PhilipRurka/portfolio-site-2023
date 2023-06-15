@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 import { Colors } from '../../styles/color';
 import { Fonts } from '../../styles/typography';
 import { ContainerLayout } from '../../styles/layout';
+import PrintSVG from '../../svg/PrintSVG';
 
 const sharedLink = css`
   ${Fonts.roboto}
@@ -16,9 +17,15 @@ const sharedLink = css`
 `
 
 export const HeaderStyled = styled.div`
+  position: relative;
   padding: 50px 0 30px;
   color: white;
   background-color: ${Colors.dodger};
+
+  @media print {
+    background-color: white;
+    padding-bottom: 0;
+  }
 `;
 
 export const HeaderWrapper = styled.div`
@@ -35,19 +42,41 @@ export const HeaderWrapper = styled.div`
       margin-top: 10px;
 
       &:first-child {
-        margin: 0
+        margin: 0;
       }
     }
   }
 `;
 
+export const PrintIconWrapper = styled.button`
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+
+  @media print {
+    display: none;
+  }
+`;
+
+export const PrintIcon = styled(PrintSVG)``;
+
 export const Name = styled.h1`
   font-size: 50px;
+
+  @media print {
+    color: ${Colors.eucalyptus};
+  }
 `;
 
 export const Title = styled.span`
   font-size: 30px;
   margin: 15px 0;
+  
+  @media print {
+    color: ${Colors.dodger};
+  }
 `;
 
 export const ContactList = styled.ul`
@@ -56,6 +85,11 @@ export const ContactList = styled.ul`
 
   @media (max-width: 700px) {
     flex-direction: column;
+  }
+
+  @media print {
+    font-weight: 800;
+    color: black;
   }
 `;
 

@@ -23,6 +23,22 @@ export const HeaderStyled = styled.div`
 
 export const HeaderWrapper = styled.div`
   ${ContainerLayout.desktop}
+
+  @media (max-width: 1000px) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 30px;
+
+    li {
+      margin-top: 10px;
+
+      &:first-child {
+        margin: 0
+      }
+    }
+  }
 `;
 
 export const Name = styled.h1`
@@ -37,6 +53,10 @@ export const Title = styled.span`
 export const ContactList = styled.ul`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const ContactItem = styled.li`

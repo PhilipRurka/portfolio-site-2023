@@ -8,6 +8,15 @@ const sharedMinor = css`
   &:first-child {
     margin-left: 0;
   }
+
+  @media (max-width: 600px) {
+    margin-left: unset;
+    margin-top: 4px;
+
+    &:first-child {
+    margin-top: 0;
+  }
+  }
 `
 
 export const ExperienceStyled = styled.div`
@@ -34,6 +43,10 @@ export const CompanyName = styled.span`
 
 export const MinorDetails = styled.div`
   display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export const TimeLine = styled.span`

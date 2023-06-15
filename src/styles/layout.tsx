@@ -1,6 +1,6 @@
 export const ContainerLayout = {
   desktop: {
-    maxWidth: '1000px',
+    maxWidth: '900px',
     margin: 'auto'
   }
 } as const

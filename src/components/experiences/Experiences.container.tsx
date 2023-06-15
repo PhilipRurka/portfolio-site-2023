@@ -19,7 +19,7 @@ const experiences: ExperiencesListType = [{
   officeType: 'Remote',
   companyDescription: 'The project I am working on for Spafax is https://enroute.aircanada.com. It is a blog platform that is built in such a way that allows my client and their team of editors to create and adjust custom pages without using up any developer time.',
   responsibilities: [
-    'In direct communication with my clients via Slack, Monday & video calls',
+    'In direct communication with my clients via Slack, Monday.com & video calls',
     'In charge of ensuring great SEO',
     'Always evaluating ROI feedback on optimizations they may or may not have considered',
     'Offer quick response to emergencies',

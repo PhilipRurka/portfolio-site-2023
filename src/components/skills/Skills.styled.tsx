@@ -1,17 +1,21 @@
 import styled from 'styled-components';
 import { Fonts } from '../../styles/typography';
+import { Colors } from '../../styles/color';
 
 export const SkillsStyled = styled.div`
 
 `;
 
 export const SkillsWrapper = styled.div`
-  
+  &:last-child ul {
+    margin-bottom: 0;
+  }
 `;
 
 export const SkillType = styled.h3`
   ${Fonts.roboto}
   font-weight: 800;
+  color: ${Colors.eucalyptus}
 `;
 
 export const SkillsList = styled.ul`

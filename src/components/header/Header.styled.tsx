@@ -29,14 +29,15 @@ export const HeaderStyled = styled.div`
 `;
 
 export const HeaderWrapper = styled.div`
+  position: relative;
   ${ContainerLayout.desktop}
 
   @media (max-width: 1000px) {
-    padding: 0 50px;
+    margin: 0 50px;
   }
 
   @media (max-width: 700px) {
-    padding: 0 30px;
+    margin: 0 30px;
 
     li {
       margin-top: 10px;
@@ -50,13 +51,17 @@ export const HeaderWrapper = styled.div`
 
 export const PrintIconWrapper = styled.button`
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 0;
+  right: 0;
   width: 40px;
   height: 40px;
 
   @media print {
     display: none;
+  }
+
+  @media (max-width: 700px) {
+    top: -35px;
   }
 `;
 

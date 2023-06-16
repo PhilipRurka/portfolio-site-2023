@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { Colors } from '../../styles/color';
 
 type AnimatedSectionType = {
-  nonBreak: boolean
+  nonBreak?: boolean
 }
 
 export const AnimatedSectionStyled = styled.section<AnimatedSectionType>`

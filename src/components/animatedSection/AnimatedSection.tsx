@@ -8,7 +8,7 @@ import {
 
 type AnimatedSectionType = {
   sectionTitle: string
-  nonBreak: boolean
+  nonBreak?: boolean
   children: JSX.Element | JSX.Element[]
 }
 

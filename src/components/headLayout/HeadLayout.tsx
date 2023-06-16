@@ -82,7 +82,7 @@ const Head: FC<HeadType> = () => {
         content="Philip Rurka's Resume" />
       <meta
         name="twitter:description"
-        content="Content description less than 200 charactersI'm a bilingual frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
+        content="I'm a bilingual frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
       <meta
         name="twitter:image"
         content="/static/assets/working-on-laptop.jpg" />

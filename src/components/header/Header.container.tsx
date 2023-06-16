@@ -5,8 +5,7 @@ const HeaderContainer: FC = () => {
 
   const handlePrint = useCallback(() => {
     if(typeof window === "undefined") return
-      // document.title = 'Philip Rurka\'s Resume';
-      window.print()
+      setTimeout(() => { window.print() })
   }, [])
 
   return (

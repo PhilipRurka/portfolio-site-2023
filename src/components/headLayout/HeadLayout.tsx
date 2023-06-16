@@ -15,6 +15,8 @@ const Head: FC<HeadType> = () => {
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+      <title>Philip rurka's Resume</title>
+
       {/**
        * Short description of the document (limit to 150 characters)
        * This content *may* be used as a part of search engine results.
@@ -23,8 +25,6 @@ const Head: FC<HeadType> = () => {
 
       {/** Gives a general age rating based on the document's content */}
       <meta name="rating" content="General" />
-
-      <title>Philip rurka's Resume</title>
     </>
   )
 }

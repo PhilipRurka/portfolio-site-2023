@@ -20,13 +20,13 @@ const Education: FC<EducationType> = () => {
     <EducationStyled>
       <AnimatedChunkContainer
         type={{
-          direction: 'waterfall',
+          timing: 'waterfall',
           style: 'from-left'
         }} >
         <Content>
-          <EducationType>Self Taught</EducationType>
+          <EducationType>Self-Taught</EducationType>
           <Description>
-            I am a self taught developer who mostly learned by:        
+            I am a self-taught developer who mostly learned by:        
           </Description>
           <MeansList>
             {meansList.map((item) => (

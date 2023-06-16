@@ -25,7 +25,7 @@ const experiences: ExperiencesListType = [{
     'Offer quick response to emergencies',
     'Capable of quickly reverting the site\'s version via the use of Netlify',
     'Enable editors to have autonomy over page creation with the use of templates and modules (lego blocks) on Contentful',
-    'Each pages have an English and French version',
+    'All pages have an English and French version',
     'Pages are generated statically with the use of Gatsby'
   ]
 }, {
@@ -80,7 +80,7 @@ const experiences: ExperiencesListType = [{
   timeLine: 'December 2016 - February 2019',
   companyLocation: 'Fredericton, New-Brunswick',
   officeType: 'Onsite',
-  companyDescription: 'SimpTek was a startup company that focused on big data energy analytics. They would install hardware in users home which would then display useful information in regards to their power usage on a Dashboard they had access too.',
+  companyDescription: 'SimpTek was a startup company that focused on big data energy analytics. They would install hardware in user\'s home which would then display useful information in regard to their power usage on a Dashboard they had access too.',
   responsibilities: [
     'Create new or adjust previous processes',
     'Delegate tasks to the Front-End team',
@@ -89,7 +89,7 @@ const experiences: ExperiencesListType = [{
     'Ensure no one within the tech team was blocked and if they were, work toward unblocking them',
     'Represented the tech team in meetings',
     'Research on new technologies to better the efficiency and effectiveness of the Tech Team',
-    'Wrote many documentations such as project scope, feature definitions, processes, terminologydefinitions related goods',
+    'Wrote many documentations such as project scope, feature definitions, processes, terminology/definitions related goods',
     'Lead sprints and their retrospects',
     'Conducted demo’s of the current product & upcoming features',
     'Created, tested and managed custom emails',

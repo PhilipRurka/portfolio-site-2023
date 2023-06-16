@@ -36,9 +36,9 @@ export const skillsData: SkillsData = [{
     'Implementing UI libraries',
     'Shopify',
     'Email building',
-    'Custom Gmail signature',
-    'Formatting Print Page',
-    'Populating Google Sheets with data'
+    'Custom gmail signature',
+    'Formatting print page',
+    'Populating google gheets with data'
   ]
 }, {
   skillType: 'Project Management Platforms',
@@ -64,12 +64,12 @@ export const skillsData: SkillsData = [{
   skillType: 'Experience in',
   skills: [
     'Team Lead',
-    'Project Manager',
+    'Project manager',
     'Conducting efficient meetings',
     'Conducting product demos',
     'Writing documentation',
     'Design feedback & review',
-    'Mentor Junior Developers'
+    'Mentor junior developers'
   ]
 }]
 

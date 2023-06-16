@@ -1,8 +1,18 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Colors } from '../../styles/color';
 
-export const AnimatedSectionStyled = styled.section`
+type AnimatedSectionType = {
+  nonBreak: boolean
+}
+
+export const AnimatedSectionStyled = styled.section<AnimatedSectionType>`
   margin-top: 40px;
+
+  ${props => props.nonBreak ? css`
+    @media print {
+      break-inside: avoid;
+    }
+  ` : ''}
 `;
 
 export const HeadingWrapper = styled.div`

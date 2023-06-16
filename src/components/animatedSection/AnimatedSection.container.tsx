@@ -4,6 +4,7 @@ import { gsap } from "gsap"
 
 type AnimatedSectionContainerType = {
   sectionTitle: string
+  nonBreak?: boolean
   children: JSX.Element | JSX.Element[]
 }
 

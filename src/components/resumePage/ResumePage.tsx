@@ -30,7 +30,9 @@ const ResumePage: FC<ResumePageType> = () => {
             <AnimatedSection sectionTitle='Education'>
               <Education />
             </AnimatedSection>
-            <AnimatedSection sectionTitle='Skills'>
+            <AnimatedSection
+              sectionTitle='Skills'
+              nonBreak >
               <Skills />
             </AnimatedSection>
           </LeftColumn>

@@ -8,17 +8,19 @@ import {
 
 type AnimatedSectionType = {
   sectionTitle: string
+  nonBreak: boolean
   children: JSX.Element | JSX.Element[]
 }
 
 const AnimatedSection= forwardRef<any, AnimatedSectionType>(({
   sectionTitle,
+  nonBreak,
   children
 }, {
   headingRef,
   underlineRef
 }: any) => (
-  <AnimatedSectionStyled>
+  <AnimatedSectionStyled nonBreak={nonBreak}>
     <HeadingWrapper>
       <SectionTitle ref={headingRef}>
         { sectionTitle }

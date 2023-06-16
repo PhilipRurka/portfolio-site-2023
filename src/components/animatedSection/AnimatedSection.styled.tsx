@@ -22,7 +22,7 @@ export const Underline = styled.div`
   position: absolute;
   bottom: -3px;
   left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: ${Colors.dodger};
+  width: 0;
+  height: 0;
+  border-bottom: 3px solid ${Colors.dodger};
 `;

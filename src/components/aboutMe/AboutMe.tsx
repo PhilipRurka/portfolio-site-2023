@@ -1,24 +1,21 @@
-import React, { FC, Fragment } from "react";
+import React, { FC, Fragment, forwardRef } from "react";
 import {
   AboutMeDescription,
   AboutMeHeading,
-  AboutMeStyled
+  AboutMeStyled,
+  AboutMeWrapper
 } from "./AboutMe.styled";
 import { aboutMeData } from "./AboutMe.container";
 
-type AboutMeType = {
-  
-}
-
-const AboutMe: FC<AboutMeType> = () => (
-  <AboutMeStyled>
+const AboutMe = forwardRef<HTMLDivElement>((_, ref) => (
+  <AboutMeStyled ref={ref}>
     {aboutMeData.map((item) => (
-      <Fragment key={`AboutMe-${item.title}`}>
+      <AboutMeWrapper key={`AboutMe-${item.title}`}>
         <AboutMeHeading>{ item.title }</AboutMeHeading>
         <AboutMeDescription>{ item.description }</AboutMeDescription>
-      </Fragment>
+      </AboutMeWrapper>
     ))}
   </AboutMeStyled>
-)
+))
 
 export default AboutMe

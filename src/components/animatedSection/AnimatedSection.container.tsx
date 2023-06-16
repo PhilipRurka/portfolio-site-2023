@@ -12,18 +12,25 @@ const AnimatedSectionContainer: FC<AnimatedSectionContainerType> = ({ ...rest })
   const underlineRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    gsap.to(headingRef.current, {
+    const tl = gsap.timeline({
       scrollTrigger: {
         trigger: headingRef.current,
         toggleActions: 'play none none none',
         start: 'center 90%',
         end: 'center 90%',
-        markers: true,
-      },
+      }
+    })
+
+    tl.to(headingRef.current, {
       alpha: 1,
-      duration: 1,
+      duration: 0.75,
       ease: 'power1'
     })
+    .to(underlineRef.current, {
+      width: "100%",
+      duration: 0.75,
+      ease: 'power1'
+    }, '<0.5')
   }, [])
 
   return (

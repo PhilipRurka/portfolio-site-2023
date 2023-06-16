@@ -61,7 +61,7 @@ export const skillsData: SkillsData = [{
     'GitLab'
   ]
 }, {
-  skillType: 'Experience in',
+  skillType: 'Experience In',
   skills: [
     'Team Lead',
     'Project manager',

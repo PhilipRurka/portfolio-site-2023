@@ -37,7 +37,7 @@ export const ExperienceStyled = styled.div`
 
 export const JobTitle = styled.h3`
   font-size: 18px;
-  color: ${Colors.eucalyptus};
+  color: ${Colors.tropicaRainForest};
 `;
 
 export const CompanyName = styled.span`

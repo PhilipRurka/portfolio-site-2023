@@ -20,7 +20,7 @@ export const SkillsWrapper = styled.div`
 export const SkillType = styled.h3`
   ${Fonts.roboto}
   font-weight: 800;
-  color: ${Colors.eucalyptus};
+  color: ${Colors.tropicaRainForest};
 `;
 
 export const SkillsList = styled.ul`

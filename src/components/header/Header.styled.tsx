@@ -66,7 +66,7 @@ export const Name = styled.h1`
   font-size: 50px;
 
   @media print {
-    color: ${Colors.eucalyptus};
+    color: ${Colors.tropicaRainForest};
   }
 `;
 

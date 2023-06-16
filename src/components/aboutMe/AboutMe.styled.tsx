@@ -11,7 +11,7 @@ export const AboutMeWrapper = styled.div`
 
 export const AboutMeHeading = styled.h3`
   font-size: 18px;
-  color: ${Colors.eucalyptus};
+  color: ${Colors.tropicaRainForest};
 `;
 
 export const AboutMeDescription = styled.p`

@@ -7,6 +7,7 @@ export const SkillsStyled = styled.div`
 `;
 
 export const SkillsWrapper = styled.div`
+
   &:last-child ul {
     margin-bottom: 0;
   }

@@ -31,7 +31,7 @@ export const ExperienceStyled = styled.div`
   }
 
   @media print {
-    break-inside: avoid; 
+    break-inside: avoid;
   }
 `;
 

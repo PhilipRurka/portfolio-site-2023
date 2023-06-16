@@ -1,23 +1,27 @@
-import React, { FC, Fragment } from "react";
+import React from "react";
 import {
   AboutMeDescription,
   AboutMeHeading,
-  AboutMeStyled
+  AboutMeStyled,
+  AboutMeWrapper
 } from "./AboutMe.styled";
 import { aboutMeData } from "./AboutMe.container";
+import AnimatedChunkContainer from "../animatedChunk";
 
-type AboutMeType = {
-  
-}
-
-const AboutMe: FC<AboutMeType> = () => (
+const AboutMe = () => (
   <AboutMeStyled>
-    {aboutMeData.map((item) => (
-      <Fragment key={`AboutMe-${item.title}`}>
-        <AboutMeHeading>{ item.title }</AboutMeHeading>
-        <AboutMeDescription>{ item.description }</AboutMeDescription>
-      </Fragment>
-    ))}
+    <AnimatedChunkContainer
+      type={{
+        direction: 'waterfall',
+        style: 'from-left'
+      }} >
+      {aboutMeData.map((item) => (
+        <AboutMeWrapper key={`AboutMe-${item.title}`}>
+          <AboutMeHeading>{ item.title }</AboutMeHeading>
+          <AboutMeDescription>{ item.description }</AboutMeDescription>
+        </AboutMeWrapper>
+      ))}
+    </AnimatedChunkContainer>
   </AboutMeStyled>
 )
 

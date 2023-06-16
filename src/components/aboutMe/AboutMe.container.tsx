@@ -15,6 +15,7 @@ export const aboutMeData: AboutMeDataType = [{
 }]
 
 const AboutMeContainer: FC = () => {
+
   return (
     <AboutMe />
   )

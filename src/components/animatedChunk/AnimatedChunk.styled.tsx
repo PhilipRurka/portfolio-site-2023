@@ -7,7 +7,7 @@ export const AnimatedChunkStyled = styled.div`
 
     @media print {
       opacity: 1 !important;
-      transform: translateX(0) !important;
+      transform: translate(0, 0) !important;
     }
   }
 `;

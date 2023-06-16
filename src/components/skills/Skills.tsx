@@ -18,7 +18,7 @@ const Skills: FC<SkillsType> = () => (
   <SkillsStyled>
     <AnimatedChunkContainer
       type={{
-        direction: 'waterfall',
+        timing: 'waterfall',
         style: 'from-left'
       }} >
       {skillsData.map(item => (

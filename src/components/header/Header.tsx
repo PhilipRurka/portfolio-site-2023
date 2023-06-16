@@ -22,13 +22,21 @@ const Header: FC<HeaderType> = ({ handlePrint }) => {
   return (
     <HeaderStyled>
       <HeaderWrapper>
-        <PrintIconWrapper onClick={handlePrint}>
-          <PrintIcon color='#fff' />
-        </PrintIconWrapper>
+        <AnimatedChunkContainer
+          type={{
+            timing: 'sametime',
+            duration: 0.75,
+            style: 'from-left',
+            ease: 'elastic.inOut'
+          }} >
+          <PrintIconWrapper onClick={handlePrint}>
+            <PrintIcon color='#fff' />
+          </PrintIconWrapper>
+        </AnimatedChunkContainer>
         <AnimatedChunkContainer
           type={{
             delay: 0,
-            direction: 'sametime',
+            timing: 'sametime',
             duration: 0.75,
             style: 'fade'
           }} >
@@ -37,7 +45,7 @@ const Header: FC<HeaderType> = ({ handlePrint }) => {
         </AnimatedChunkContainer>
         <AnimatedChunkContainer
           type={{
-            direction: 'waterfall',
+            timing: 'waterfall',
             duration: 0.75,
             style: 'fade'
           }} >

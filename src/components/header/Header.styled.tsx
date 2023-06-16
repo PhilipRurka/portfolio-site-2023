@@ -55,10 +55,6 @@ export const PrintIconWrapper = styled.button`
   width: 40px;
   height: 40px;
 
-  @media (max-width: 600px) {
-    display: none;
-  }
-
   @media print {
     display: none;
   }

@@ -12,7 +12,7 @@ const AboutMe = () => (
   <AboutMeStyled>
     <AnimatedChunkContainer
       type={{
-        direction: 'waterfall',
+        timing: 'waterfall',
         style: 'from-left'
       }} >
       {aboutMeData.map((item) => (

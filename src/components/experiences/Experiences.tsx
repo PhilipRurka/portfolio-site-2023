@@ -13,7 +13,7 @@ const Experiences: FC<ExperiencesType> = ({ list }) => {
     <ExperiencesStyled>
       <AnimatedChunkContainer
         type={{
-          direction: 'waterfall',
+          timing: 'waterfall',
           style: 'fade'
         }} >
         {list.map((item, i) => (

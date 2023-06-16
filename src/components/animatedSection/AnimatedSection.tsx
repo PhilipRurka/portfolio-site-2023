@@ -20,7 +20,7 @@ const AnimatedSection= forwardRef<any, AnimatedSectionType>(({
   headingRef,
   underlineRef
 }: any) => (
-  <AnimatedSectionStyled nonBreak={nonBreak}>
+  <AnimatedSectionStyled nonBreak={nonBreak} >
     <HeadingWrapper>
       <SectionTitle ref={headingRef}>
         { sectionTitle }

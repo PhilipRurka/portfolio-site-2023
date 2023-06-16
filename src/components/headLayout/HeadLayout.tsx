@@ -85,7 +85,7 @@ const Head: FC<HeadType> = () => {
         content="I'm a bilingual frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
       <meta
         name="twitter:image"
-        content="/src/assets/working-on-laptop.jpg" />
+        content="/assets/working-on-laptop.jpg" />
       <meta
         name="twitter:image:
         lt" content="Philip Rurka working on a laptop" />

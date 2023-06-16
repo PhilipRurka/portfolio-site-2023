@@ -18,7 +18,7 @@ export const SectionTitle = styled.h2`
   opacity: 0;
 
   @media print {
-    opacity: 1;
+    opacity: 1 !important;
   }
 `;
 
@@ -29,4 +29,8 @@ export const Underline = styled.div`
   width: 0;
   height: 0;
   border-bottom: 3px solid ${Colors.dodger};
+
+  @media print {
+    width: 100% !important;
+  }
 `;

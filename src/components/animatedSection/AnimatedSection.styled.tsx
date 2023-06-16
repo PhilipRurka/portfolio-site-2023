@@ -16,6 +16,10 @@ export const SectionTitle = styled.h2`
   text-transform: uppercase;
   margin-bottom: 18px;
   opacity: 0;
+
+  @media print {
+    opacity: 1;
+  }
 `;
 
 export const Underline = styled.div`

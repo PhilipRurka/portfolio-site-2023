@@ -24,6 +24,16 @@ const Header: FC<HeaderType> = ({ handlePrint }) => {
       <HeaderWrapper>
         <AnimatedChunkContainer
           type={{
+            delay: 0,
+            timing: 'sametime',
+            duration: 0.75,
+            style: 'fade'
+          }} >
+          <Name>Philip Rurka</Name>
+          <Title>Frontend Developer</Title>
+        </AnimatedChunkContainer>
+        <AnimatedChunkContainer
+          type={{
             timing: 'sametime',
             duration: 0.75,
             style: 'from-left',
@@ -32,16 +42,6 @@ const Header: FC<HeaderType> = ({ handlePrint }) => {
           <PrintIconWrapper onClick={handlePrint}>
             <PrintIcon color='#fff' />
           </PrintIconWrapper>
-        </AnimatedChunkContainer>
-        <AnimatedChunkContainer
-          type={{
-            delay: 0,
-            timing: 'sametime',
-            duration: 0.75,
-            style: 'fade'
-          }} >
-          <Name>Philip Rurka</Name>
-          <Title>Frontend Developer</Title>
         </AnimatedChunkContainer>
         <AnimatedChunkContainer
           type={{

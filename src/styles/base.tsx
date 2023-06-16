@@ -5,6 +5,10 @@ import { Fonts } from './typography'
 export const GlobalStyle = createGlobalStyle`
   ${reset}
 
+  @page {
+    margin-top: 1in;
+  }
+  
   body {
     ${Fonts.noto}
   }

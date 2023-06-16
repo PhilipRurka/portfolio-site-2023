@@ -24,7 +24,7 @@ export const HeaderStyled = styled.div`
 
   @media print {
     background-color: white;
-    padding-bottom: 0;
+    padding: 0;
   }
 `;
 

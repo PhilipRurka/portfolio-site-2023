@@ -5,7 +5,9 @@ import { gsap } from "gsap"
 type AnimatedChunkContainerType = {
   children: JSX.Element | JSX.Element[]
   type: {
+    delay?: number
     direction: 'waterfall' | 'sametime'
+    duration?: number
     style: 'from-left' | 'fade'
   }
 }
@@ -13,7 +15,9 @@ type AnimatedChunkContainerType = {
 const AnimatedChunkContainer: FC<AnimatedChunkContainerType> = ({
   children,
   type: {
+    delay: pDelay,
     direction,
+    duration,
     style
   }
 }) => {
@@ -29,9 +33,16 @@ const AnimatedChunkContainer: FC<AnimatedChunkContainerType> = ({
       ease = 'power2'
     }
 
-    for (let i = 0; i < parentRef.current.children.length; i++) {
-      const chunk = parentRef.current.children[i];
-      let delay: number = 0.25
+    let parent = parentRef.current.children
+
+    if(parent[0].localName === 'ul') {
+      parent = parent[0].children
+    }
+
+    for (let i = 0; i < parent.length; i++) {
+      const chunk = parent[i];
+
+      let delay: number = typeof pDelay === "undefined" ? 0.25 : 0 
 
       if(direction === 'waterfall') {
         delay = i * 0.25
@@ -46,7 +57,7 @@ const AnimatedChunkContainer: FC<AnimatedChunkContainerType> = ({
           start: '10px bottom-=50px',
         },
         alpha: 1,
-        duration: 1.25,
+        duration: duration || 1.25,
         delay,
         x: 0,
         ease

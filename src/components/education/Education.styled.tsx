@@ -5,6 +5,10 @@ export const EducationStyled = styled.div`
 
 `;
 
+export const Content = styled.div`
+  
+`;
+
 export const EducationType = styled.h3`
   font-size: 18px;
   color: ${Colors.eucalyptus};

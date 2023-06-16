@@ -15,9 +15,8 @@ const AnimatedSectionContainer: FC<AnimatedSectionContainerType> = ({ ...rest })
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: headingRef.current,
-        toggleActions: 'play none none none',
-        start: 'center 90%',
-        end: 'center 90%',
+        toggleActions: 'play none none reverse',
+        start: 'center bottom-=50px',
       }
     })
 

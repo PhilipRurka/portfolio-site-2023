@@ -1,6 +1,5 @@
-import React, { FC, useEffect, useRef } from "react"
+import React, { FC } from "react"
 import AboutMe from "./AboutMe"
-import { gsap } from "gsap"
 
 type AboutMeDataType = Array<{
   title: string
@@ -16,35 +15,9 @@ export const aboutMeData: AboutMeDataType = [{
 }]
 
 const AboutMeContainer: FC = () => {
-  const wrapperRef = useRef<HTMLDivElement>(null)
-  
-  useEffect(() => {
-    if(!wrapperRef.current) return
-    for (let i = 0; i < wrapperRef.current.children.length; i++) {
-      const chunk = wrapperRef.current.children[i];
-      console.log(chunk)
-
-      gsap.fromTo(chunk, {
-        x: -150
-      }, {
-        scrollTrigger: {
-          trigger: chunk,
-          toggleActions: 'play none none none',
-          start: 'center 90%',
-          end: 'center 90%',
-          markers: true,
-        },
-        alpha: 1,
-        duration: 1.5,
-        delay: 0.25 * i,
-        x: 0,
-        ease: 'power1'
-      })
-    }
-  }, [])
 
   return (
-    <AboutMe ref={wrapperRef} />
+    <AboutMe />
   )
 }
 

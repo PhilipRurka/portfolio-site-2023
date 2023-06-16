@@ -6,7 +6,7 @@ export const AboutMeStyled = styled.div`
 `;
 
 export const AboutMeWrapper = styled.div`
-  opacity: 0;
+
 `;
 
 export const AboutMeHeading = styled.h3`

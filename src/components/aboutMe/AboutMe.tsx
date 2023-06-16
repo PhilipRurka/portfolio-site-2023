@@ -1,4 +1,4 @@
-import React, { FC, Fragment, forwardRef } from "react";
+import React from "react";
 import {
   AboutMeDescription,
   AboutMeHeading,
@@ -6,16 +6,23 @@ import {
   AboutMeWrapper
 } from "./AboutMe.styled";
 import { aboutMeData } from "./AboutMe.container";
+import AnimatedChunkContainer from "../animatedChunk";
 
-const AboutMe = forwardRef<HTMLDivElement>((_, ref) => (
-  <AboutMeStyled ref={ref}>
-    {aboutMeData.map((item) => (
-      <AboutMeWrapper key={`AboutMe-${item.title}`}>
-        <AboutMeHeading>{ item.title }</AboutMeHeading>
-        <AboutMeDescription>{ item.description }</AboutMeDescription>
-      </AboutMeWrapper>
-    ))}
+const AboutMe = () => (
+  <AboutMeStyled>
+    <AnimatedChunkContainer
+      type={{
+        direction: 'waterfall',
+        style: 'from-left'
+      }} >
+      {aboutMeData.map((item) => (
+        <AboutMeWrapper key={`AboutMe-${item.title}`}>
+          <AboutMeHeading>{ item.title }</AboutMeHeading>
+          <AboutMeDescription>{ item.description }</AboutMeDescription>
+        </AboutMeWrapper>
+      ))}
+    </AnimatedChunkContainer>
   </AboutMeStyled>
-))
+)
 
 export default AboutMe

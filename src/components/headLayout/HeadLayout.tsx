@@ -17,7 +17,7 @@ const Head: FC<HeadType> = () => {
         name="viewport"
         content="width=device-width, initial-scale=1" />
 
-      <title>Philip rurka's Resume</title>
+      <title>Philip Rurka's Resume</title>
 
       {/**
        * Short description of the document (limit to 150 characters)

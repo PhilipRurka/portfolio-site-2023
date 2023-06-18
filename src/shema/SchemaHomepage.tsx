@@ -20,14 +20,62 @@ import { JsonLd } from 'react-schemaorg';
           "name": "What are my Proficiencies?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": '<p><b>HTML</b>, <b>CSS</b>, <b>SCSS</b>, <b>Styled Component</b>, <b>Vanilla Javascript</b>, <b>Typescript</b>, <b>React</b>, <b>Next.js</b>, <b>Gatsby</b>, <b>React Redux</b>, <b>Gsap (Greenstock)</b>, <b>GraphQl</b>, <b>Liquid</b>, Monday.com, Asana, Trello, Jira, Confluence, Atlassian, Authentication, <b>Contentful</b>, <b>Netlify</b>, <b>Vercel</b>, <b>Authentication - Supabase</b>, <b>Database - Supabase</b>, <b>Github</b>, <b>GitLab</b></p>'
+            "text": `
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SCSS</li>
+                <li>Styled Component</li>
+                <li>Vanilla Javascript</li>
+                <li>Typescript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Gatsby</li>
+                <li>React Redux</li>
+                <li>Gsap (Greenstock)</li>
+                <li>GraphQl</li>
+                <li>Liquid</li>
+                <li>Monday.com</li>
+                <li>Asana</li>
+                <li>Trello</li>
+                <li>Jira</li>
+                <li>Confluence</li>
+                <li>Atlassian</li>
+                <li>Authentication</li>
+                <li>Contentful</li>
+                <li>Netlify</li>
+                <li>Vercel</li>
+                <li>Authentication - Supabase</li>
+                <li>Database - Supabase</li>
+                <li>Github</li>
+                <li>GitLab</li>
+              </ul>
+            `
           }
         }, {
           "@type": "Question",
           "name": "How to contact me?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "<p><b>Email:</b> <a href=\'mailto:hey@philiprurka.com'>hey@philiprurka.com</a></p><p><b>Phone Number:</b> <a href='tel:+14384588649'>+1 (438) 458-8649</a></p><p><b>LinkedIn:</b> <a href='https://linkedin.com/in/philiprurka'>linkedin.com/in/philiprurka</a></p>"
+            "text": `
+              <ul>
+                <li>
+                  <p>
+                    <b>Email:</b> <a href='mailto:hey@philiprurka.com'>hey@philiprurka.com</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>Phone Number:</b> <a href='tel:+14384588649'>+1 (438) 458-8649</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>LinkedIn:</b> <a href='https://linkedin.com/in/philiprurka'>linkedin.com/in/philiprurka</a>
+                  </p>
+                </li>
+              </ul>
+            `
           }
         }]
       }}

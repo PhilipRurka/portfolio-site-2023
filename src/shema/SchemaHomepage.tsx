@@ -20,7 +20,7 @@ import { JsonLd } from 'react-schemaorg';
           "name": "What are my Proficiencies?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": '<b>HTML</b>, <b>CSS</b>, <b>SCSS, <b>Styled Component</b>, <b>Vanilla Javascript</b>, <b>Typescript</b>, <b>React</b>, <b>Next.js</b>, <b>Gatsby</b>, <b>React Redux</b>, <b>Gsap (Greenstock)</b>, <b>GraphQl</b>, <b>Liquid</b>, Monday.com, Asana, Trello, Jira, Confluence, Atlassian, Authentication, <b>Contentful</b>, <b>Netlify</b>, <b>Vercel</b>, <b>Authentication - Supabase</b>, <b>Database - Supabase</b>, <b>Github</b>, <b>GitLab</b>'
+            "text": '<p><b>HTML</b>, <b>CSS</b>, <b>SCSS</b>, <b>Styled Component</b>, <b>Vanilla Javascript</b>, <b>Typescript</b>, <b>React</b>, <b>Next.js</b>, <b>Gatsby</b>, <b>React Redux</b>, <b>Gsap (Greenstock)</b>, <b>GraphQl</b>, <b>Liquid</b>, Monday.com, Asana, Trello, Jira, Confluence, Atlassian, Authentication, <b>Contentful</b>, <b>Netlify</b>, <b>Vercel</b>, <b>Authentication - Supabase</b>, <b>Database - Supabase</b>, <b>Github</b>, <b>GitLab</b></p>'
           }
         }, {
           "@type": "Question",

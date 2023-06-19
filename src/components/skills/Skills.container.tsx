@@ -30,7 +30,7 @@ export const skillsData: SkillsData = [{
     'a11y (Accessibility)',
     'SEO',
     'Google Search Console',
-    'Schema.org',
+    'Schema.org/Rich Markup',
     'Setting up multiple environments',
     'Eslint',
     'API',
@@ -39,7 +39,7 @@ export const skillsData: SkillsData = [{
     'Email building',
     'Custom gmail signature',
     'Formatting print page',
-    'Populating google gheets with data',
+    'Populating Google Sheets with data',
     'Deploy code to production'
   ]
 }, {

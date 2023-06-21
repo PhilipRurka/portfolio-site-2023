@@ -19,6 +19,7 @@ export const skillsData: SkillsData = [{
     'Next.js',
     'Gatsby',
     'React Redux',
+    'Redux Toolkit',
     'Gsap (Greenstock)',
     'GraphQl',
     'Liquid'

@@ -40,7 +40,7 @@ const experiences: ExperiencesListType = [{
     'Handled payment related tasks',
     'Used Agile Methodology project management approach',
     'Frequently performed Code Reviews',
-    'Participated in many lunch and learns & retro spects',
+    'Participated in many lunch and learns & retro specs',
     'Reviewed and gave feedback on designs',
     'Wrote and managed project scopes',
     'Create tasks based on project scopes I would write'
@@ -90,7 +90,7 @@ const experiences: ExperiencesListType = [{
     'Represented the tech team in meetings',
     'Research on new technologies to better the efficiency and effectiveness of the Tech Team',
     'Wrote many documentations such as project scope, feature definitions, processes, terminology/definitions related goods',
-    'Lead sprints and their retrospects',
+    'Lead sprints and their retro specs',
     'Conducted demo’s of the current product & upcoming features',
     'Created, tested and managed custom emails',
     'Worked on both version 1 and 2 of their dashboard',

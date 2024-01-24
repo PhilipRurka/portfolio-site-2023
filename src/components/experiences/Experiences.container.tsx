@@ -12,6 +12,25 @@ export type ExperiencesListType = Array<{
 }>
 
 const experiences: ExperiencesListType = [{
+  jobTitle: 'React Frontend Developer',
+  companyName: 'Livescale',
+  timeLine: 'July 2023 - January 2024',
+  companyLocation: 'Montreal, Quebec',
+  officeType: "Onsite & Remote",
+  companyDescription: 'Livescale is a live shopping platform that integrates real-time video with e-commerce to provide interactive and engaging shopping experiences. It offers businesses tools to host live video events, manage audience interactions, and facilitate instant purchases.',
+  responsibilities: [
+    'Worked on multiple applications/projects using Typescript with NextJS version 13',
+    'Managed my own projects',
+    'Presented Demo\'s to other internal departments',
+    'Offer quick response to emergencies',
+    'Created a Shopify app and Shopify embed app',
+    'Created a script for our clients to use that allowed them to embed a live room experience on their website.',
+    'Worked with Mux Player and Mux Uploader',
+    'Worked with Tailwind and Storybook',
+    'Created documentations',
+    'Collaborate with our Designer to optimize customer experience'
+  ]
+}, {
   jobTitle: 'React Frontend Developer Freelancer',
   companyName: 'Spafax',
   timeLine: 'January 2022 - Current',

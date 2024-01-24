@@ -22,8 +22,8 @@ export const skillsData: SkillsData = [{
     'Redux Toolkit',
     'Gsap (Greenstock)',
     'GraphQl',
-    'Liquid'
-    
+    'Liquid',
+    'Tailwind',
   ]
 }, {
   skillType: 'Frontend Proficiencies',
@@ -41,7 +41,12 @@ export const skillsData: SkillsData = [{
     'Custom gmail signature',
     'Formatting print page',
     'Populating Google Sheets with data',
-    'Deploy code to production'
+    'Deploy code to production',
+    'Vercel SWR',
+    'Zod',
+    'Next.js Server Components',
+    'Miro',
+    'Iframe embeds'
   ]
 }, {
   skillType: 'Project Management Platforms',
@@ -50,7 +55,8 @@ export const skillsData: SkillsData = [{
     'Asana',
     'Trello - Atlassian',
     'Jira - Atlassian',
-    'Confluence - Atlassian'
+    'Confluence - Atlassian',
+    'Linear'
   ]
 }, {
   skillType: 'Other 3rd Party Platforms',

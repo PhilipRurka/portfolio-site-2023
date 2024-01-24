@@ -25,6 +25,10 @@ export const Main = styled.main`
   @media (max-width: 600px) {
     padding: 0 30px;
   }
+
+  @media print {
+    display: block;
+  }
 `;
 
 export const LeftColumn = styled.div`

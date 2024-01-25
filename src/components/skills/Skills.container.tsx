@@ -67,7 +67,8 @@ export const skillsData: SkillsData = [{
     'Authentication - Supabase',
     'Database - Supabase',
     'Github',
-    'GitLab'
+    'GitLab',
+    'Slack'
   ]
 }, {
   skillType: 'Experience In',

@@ -30,7 +30,7 @@ const Header: FC<HeaderType> = ({ handlePrint }) => {
             style: 'fade'
           }} >
           <Name>Philip Rurka</Name>
-          <Title>Frontend Developer</Title>
+          <Title>Senior Frontend Developer</Title>
         </AnimatedChunkContainer>
         <AnimatedChunkContainer
           type={{

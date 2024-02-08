@@ -65,7 +65,7 @@ const Head: FC<HeadType> = () => {
         content="Philip Rurka working on a laptop" />
       <meta
         property="og:description"
-        content="I'm a bilingual frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
+        content="I'm a bilingual senior frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
       <meta
         property="og:site_name"
         content="Philip Rurka's Resume" />
@@ -82,7 +82,7 @@ const Head: FC<HeadType> = () => {
         content="Philip Rurka's Resume" />
       <meta
         name="twitter:description"
-        content="I'm a bilingual frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
+        content="I'm a bilingual senior frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers." />
       <meta
         name="twitter:image"
         content="/assets/working-on-laptop.jpg" />

@@ -13,7 +13,7 @@ import { JsonLd } from 'react-schemaorg';
           "name": "Who Am I?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "I'm a bilingual frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers. I have a passion for clean, performant and a11y code. A healthy culture and a team that works well together is very important to me."
+            "text": "I'm a bilingual senior frontend developer who is working on his full stack citizenship. I love attending tech meetups and working alongside other highly motivated developers. I have a passion for clean, performant and a11y code. A healthy culture and a team that works well together is very important to me."
           }
         }, {
           "@type": "Question",
